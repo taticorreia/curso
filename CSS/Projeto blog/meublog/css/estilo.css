@@ -1,0 +1,70 @@
+*{
+	margin:0;
+	paddin:0;
+}
+
+body{
+	background: #EEE2E8;
+	size: 17px;
+}
+
+h1{
+	color:#710B41;
+}
+
+#navegacao{
+	background: #E6C5D7;
+	border-bottom: 1px solid red;
+	height: 40px;
+	top: 0;
+}
+
+#area{
+	width: 800px;
+	margin: 0 auto;
+
+}
+#area-principal{
+	background: #F4DCEB;
+	border:#F5D8E8 solid 2px;
+	width: 800px;
+	margin: 55px auto 10px auto;;
+
+}
+
+.vermelho{
+	color:red;
+}
+#logo{
+	float:left;
+}
+
+#link{
+	float:right;
+	padding:10px 0;
+
+}
+
+a {
+	text-decoration: none;
+	padding: 5px 10px;
+}
+
+a:hover {
+	color: #fff;
+	background:#E992C1;
+}
+
+
+a:active {
+	color: #E992C1;
+
+.img-postagem{
+	float: left;
+	margin:0 10px 5px 0;
+
+
+.texto{
+	float:right;
+}
+

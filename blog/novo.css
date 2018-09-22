@@ -1,0 +1,17 @@
+/*Limpar formatações padrão*/
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background: #F4C383;
+}
+
+#principal{
+	background: #FCF8F2;
+	width: 500px;
+	height: 500px;
+	margin:50px auto;
+
+}

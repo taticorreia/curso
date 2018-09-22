@@ -1,0 +1,105 @@
+<!doctype html>
+<html>
+	<head>
+		<!--[if IE]>
+		<script src="js/html5shiv.js"></script>
+		<![endif]-->
+		<title>Home</title>
+		<link rel="stylesheet" type="text/css" href="estilo2.css"/>
+		<link rel="stylesheet" type="text/css" href="css/normalize.css">
+
+	</head>
+
+
+	<body>
+		<div id="area">
+			<div id="total">
+				<h1 id="logo">Cat's<span class="vermelho"</span>Lovers</h1>
+
+					<div id="menu">
+						<a href="home.html"> Home</a>|
+						<a href="eventos.html"> Eventos</a>|
+						<a href="ongs.html"> Ongs</a>|
+						<a href="cadastro.html"> Cadastro </a>|
+
+					</div>
+			</div>
+		</div>
+
+
+		<div id="conteudo">
+			<form id="login">
+				<label for="email">E-mail:<br>
+				<input type="email" id="email"placeholder="exemplo@exemplo.com.br" />
+				<br><span>
+
+				Senha:<br>
+				<input type="password"/>
+				<br></span>
+				<input type="submit" value="entrar" class="login"/> 
+				
+			</form>
+
+				<div id="cadastro">
+
+			<form>
+				<h2 align="center">Cadastro</h2>
+
+				Nome: <br><input type="text" placeholder="Fulano de tal" required="Informe seu nome trouxa" />
+				<br><br>
+				
+
+				<label for="nascimento">Data de Nascimento:</label><br>
+				<input type="date" id="nascimento">
+				<br><br>
+
+				<label for="numero">Idade:</label><br>
+				<input type="number" id="numero" min="5" max="105"/>
+				<br><br>
+
+				<label for="sexo">Sexo:</label><br>
+				<input type="radio" id="sexo"/> Masculino <br>
+				<br><input type="radio"/> Feminino
+				<br><br>
+
+				<label for="estado">Estado:</label>
+				<select id="estado">
+					<option>---</option>
+					<option>SP</option>
+					<option>RJ</option>
+					<option>RS</option>
+					<option>RN</option>
+				</select>
+				<br><br>
+
+				<label for="cidade">Cidade:</label>
+				<select id="cidade">
+					<option>---</option>
+					<option>Campinas</option>
+					<option>Cu do Judas</option>
+					<option>São Paulo</option>
+					<option>Niteroi</option>
+				</select>
+				<br><br>
+
+				<label for="interesses">Inteiresses:</label><br>
+				<input type="checkbox" id="interesses"> Adoção<br>
+				<input type="checkbox" id="interesses"> Contribuir com Ongs<br>
+				<input type="checkbox" id="interesses"> Ser Voluntário<br>
+				<input type="checkbox" id="interesses"> Ser Escravo de gatos<br>
+				<br>
+
+				<input type="submit" value="Cadastrar" class="login">
+				<br>
+
+
+
+			</form>
+		
+		</div>
+	
+	</body>
+
+
+
+</html>
