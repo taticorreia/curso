@@ -1,0 +1,87 @@
+<!Doctype html>
+<html lag-"pt-br">
+	<head>
+
+		<meta charset="utf-8">
+		<title>Arrays</title>
+	
+
+		<script type="text/javascript">
+		</script>
+
+	</head>
+
+	<body>
+
+		<!--23) (37.a) Crie o seguinte array: var deuses = ['Aegir', 'Aud', 'Balder']
+	E Exiba a quantidade/comprimento que ele tem com a função .length-->
+
+		<div id="novo">
+			<p>Para saber a quantidade de Deuses</p>
+			<button onclick="exer()">Clique!</button><br /><br />
+			<input type="text" id="n"/>
+			<p>Nome dos deuses:</p>
+			<input type="text" id="deuses"/>
+		</div>
+
+		<!--(37.b) Crie o seguinte array: var deuses = ['Aegir', 'Aud', 'Balder']
+		E exiba um a um com alert() - De preferencia para laços de repetição (for, forEach, while, do{}while)-->
+
+		<div id="lendo">
+			<p>Para ver os Deuses em Alert!</p>
+			<button onclick="e()">Clique!</button>
+		</div>
+
+
+		<!--(37.c) Crie o seguinte array: var deuses = ['Aegir', 'Aud', 'Balder']
+		Adicione os 3 Deuses: ('Loki', 'Odin', 'Frey') com a função push() -->
+
+		<div id="add">
+			<p>Adicionando informações:</p>
+			<button onclick="add()">Clique aqui:</button>
+			<input type="text" id="adicionar"></input>
+
+
+
+		</div>
+
+		<script>
+
+			
+			function exer(){
+				var deuses = Array('Aegir', 'Aud', 'Balder');
+				var n = deuses.length;
+				document.getElementById('n').value = n;
+				document.getElementById('deuses').value = deuses;
+			}
+
+
+			function e(){
+				var deuses = Array('Aegir', 'Aud', 'Balder');
+				var n = deuses.length;
+				
+				for(var x=0; x<n; x++){
+				var cont = deuses[x];
+				alert(cont);
+		}
+			}
+
+			function add(){
+				var deuses = Array('Aegir', 'Aud', 'Balder');
+				document.getElementById('adicionar').value = deuses;
+				deuses.push('Loki', 'Odin', 'Frey');
+				document.getElementById('adicionar').value = deuses;
+
+			}
+
+		
+
+
+		
+
+		</script>
+
+
+	</body>
+
+</html>

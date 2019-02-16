@@ -23,13 +23,24 @@ body{
 	margin:0px auto;
 
 }
+
 #menu{
 	color:#060606;
 	float:right;
 	padding:10px 15px 10px 15px;
-	
 
+}
 
+#escrita{
+	width: 240px;
+	height: 250px;
+	margin: 50px 4px 50px 4px;
+	border-right: 2px solid #F8DEDE;
+	border-top: 2px solid #F8DEDE;
+	border-bottom: 2px solid #F8DEDE;
+	position: absolute;
+	float: right;
+	padding: 100px 10px 100px 10px;
 }
 
 #logo{
@@ -53,6 +64,7 @@ body{
 	background: #F8DEDE;
 	padding: 10px;
 	margin-bottom: 10px;
+
 }
 
 .img{

@@ -1,0 +1,60 @@
+<!Doctype html>
+<html lag-"pt-br">
+	<head>
+
+		<meta charset="utf-8">
+		<title>While</title>
+	
+		<script type="text/javascript">
+
+
+
+		/*
+		Usando o while com um tipo de contador, decrementa 1 no x:
+
+		var x = 1;
+
+		while(x <= 10){
+			document.write(x + '<br />');
+
+			x++;
+
+		}*/
+
+
+		/*Posso usar break para encerrar o loop:
+
+		var x = 1;
+		while(x <=2){
+			document.write(x);
+
+			if (x == 2){
+				break;
+			}
+			x++;
+		}
+		
+		*/
+
+		//Usando o 'continue', preciso incrementar x++ antes do continue, senão entro em um loop infinito.
+
+		var x = 1;
+		while(x<=10){
+			x++;
+			if(x==5){
+				continue;
+			}
+			document.write(x+'<br />');
+
+		}
+
+
+		</script>
+
+	
+	</head>
+
+	<body>
+	</body>
+
+</html>

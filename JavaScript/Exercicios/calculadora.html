@@ -1,0 +1,64 @@
+<!Doctype html>
+<html lag-"pt-br">
+	<head>
+
+		<meta charset="utf-8">
+		<title>Exercícios</title>
+
+
+
+	</head>
+
+	<body>
+
+		<!--(10) No HTML Crie:
+		2 x - Campo/Input do tipo text. (id=soma1, id=soma1)
+		1 x - Botão (id=btn-soma)
+		1 x - Campo (id=resultado-soma)
+
+		Caso esteja preenchido um valor númerico nos dois campos(id=soma1, id=soma1),
+		A soma deles ira aparecer no campo (id=resultado-soma) ao clicar no botão (id=btn-soma).
+		-->
+
+	<div style="width:300px; height: 300px; background: pink;">
+		<p>Num1</p>
+		<input type="text" name="1" id="soma1"/>
+		<p>Num2</p>
+		<input type="text" name="2" id="soma2"/>
+		<br /><br />
+		<input type="button" value="soma" id="btn-soma"/>
+		<p>Resultado:</p>
+		<input type="text" id="resultado"/>
+	</div>
+
+
+	<!--(12.a) Crie dois botões no HTML chamados: 'Verde', ,'Vermelho'. ao clicar neles, o style="background-color: {COR-SELECIONADA}" vai ser alterado dinamicamente Alterar-Style de uma div-->
+
+
+	<div>
+		<input type="button" name="2" id="vermelho"></input>
+		<input type="button" name="1" id="azul"></input>
+	</div>
+
+	<script type="text/javascript">
+
+		/* Botao soma. */
+		document.getElementById("btn-soma").addEventListener("click", function() {
+			/* Recebendo dados digitados pelo usuário. */
+			var soma1 = document.getElementById("soma1").value;
+			var soma2 = document.getElementById("soma2").value;
+
+			/* Somando os valores. A propriedade 'eval' transforma de String para Numero */
+			resultado = eval(soma1) + eval(soma2);
+
+			/* Exibindo o resultado no campo Resultado. */
+			document.getElementById('resultado').value = resultado;
+		});
+
+		/* TODO Faça aqui os outros botões. */
+
+	</script>
+
+	</body>
+
+</html>

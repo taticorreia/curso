@@ -1,0 +1,67 @@
+<!Doctype html>
+<html lag-"pt-br">
+	<head>
+
+		<meta charset="utf-8">
+		<title>Arrays</title>
+	
+
+		<script type="text/javascript">
+		</script>
+
+	</head>
+
+	<body>
+
+		<div id="order">
+
+			<p>Números fora de ordem:</p>
+			<button  onclick="e()">
+				Mostrar números
+			</button>
+			<input type="text" id="fora"/>
+
+
+
+			<p>Colocar em ordem Crescente:</p>
+			<button  onclick="e()">
+				Colocar números em ordem
+			</button>
+
+			<input type="text" id="colocando"/>
+
+
+
+			<p>Colocar em ordem Decrescente:</p>
+			<button  onclick="e()">
+				Colocar números em ordem
+			</button>
+
+			<input type="text" id="decrescente"/>
+
+
+
+
+		</div>
+
+		<!--(37.f) Crie o seguinte array: var numbers = [5, 7, 1, 8, 9]
+		E exiba de forma decrescente.-->
+
+	<script type="text/javascript">
+		function e(){
+			var numbers = [5, 7, 1, 8, 9]
+			document.getElementById('fora').value = numbers;
+			numbers.sort();
+			document.getElementById('colocando').value = numbers;
+			numbers.reverse();
+			document.getElementById('decrescente').value = numbers;
+
+
+		}
+
+		
+	</script>
+
+	</body>
+
+</html>

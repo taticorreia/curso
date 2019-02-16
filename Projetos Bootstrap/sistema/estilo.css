@@ -1,0 +1,13 @@
+.menu {
+  background: #fff;
+  right: -200px;
+  width: 260px;
+  height: 100%;
+  top: 0;
+  z-index: 10;
+  text-align: left;
+}
+
+body{
+  background: black;
+}

@@ -1,0 +1,52 @@
+<!Doctype html>
+<html lag-"pt-br">
+
+<head>
+    <meta charset="utf-8">
+      <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link href="estilo.css" rel="stylesheet">
+    
+    <script src="jquery-1.7.2.min.js"></script>
+
+    <script type="text/javascript">
+
+    function Add(){
+    document.getElementById('tbody').innerHTML = "<tr>"+
+        "<td><input type='text'/></td>"+
+        "<td><input type='text'/></td>"+
+        "<td><input type='text'/></td>"+
+        "<td><img src='imagens/disk.jpeg' class='btnSave'><img src='imagens/delete.png' class='btnDelete'/></td>"+
+        "</tr>"
+     
+        
+}; 
+
+
+
+    </script>
+</head>
+<body>
+
+
+    <input type="button" onclick="Add()">New</input>
+
+
+    <table id="tblData">          
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Phone</th>
+                <th>Email</th>
+                <th></th>
+            </tr>
+        </thead>
+
+        <tbody id="tbody">
+        </tbody>
+    </table>
+</body>
+</html>

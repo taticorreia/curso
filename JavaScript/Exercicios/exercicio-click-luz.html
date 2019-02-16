@@ -1,0 +1,78 @@
+<!Doctype html>
+<html lag-"pt-br">
+	<head>
+
+		<meta charset="utf-8">
+		<title>Exercícios</title>
+	
+
+		<script type="text/javascript">
+
+
+			/*
+		
+			var num1 = prompt('informe um numero:');
+			var num2 = prompt('informe um numero:');
+
+			num1 = parseInt(num1);
+			num2 = parseInt(num2);
+
+			document.write('a soma entre num1 e num 2 eh:'+(num1+num2));
+			*/
+
+
+	
+			
+		
+
+			
+		
+	
+
+		</script>
+
+	</head>
+
+	<body>
+
+			<!----
+			1 - Campo/Input do tipo text para preencher o nome completo.
+			1 - Botão com o texto: 'Exibir Nome' e ao clicar neste botão é exibido um alert com o valor do campo nome completo, ex: ' O Nome Completo é: "xxxx". '
+		
+
+				
+			<p>Preencha Qualquer coisa e depois clique no botão abaixo...</p>
+			<input type="text" name="" id="my-txt" value="Aqui vai ser exibido"  />
+			<br />
+			<button id="my-btn">Outro 'Button'</button>
+
+			<script type="text/javascript">  
+			document.getElementById("my-btn").addEventListener('click', function() {
+			  var texto = document.getElementById("my-txt").value;
+			  alert(texto);
+			});
+			</script>
+			--->
+			<!---(6) No seu HTML exiba a imagem de uma lampada, ao clicar em cima da lampada, troque o src dela para a lampada que está acessa. -->
+
+	  <img src="https://github.com/gabrieldarezzo/helpjs-ravi/blob/master/images/lampada.jpg?raw=true" id="my-photo"/>
+
+	 
+	  <script type="text/javascript">
+
+	    document.getElementById("my-photo").addEventListener("click", function() {
+ 	 	const foto = document.getElementById("my-photo").src = "https://github.com/gabrieldarezzo/helpjs-ravi/blob/master/images/lampada-on.jpg?raw=true";
+ 	 })
+	  </script>
+
+
+	
+
+
+	
+
+
+
+	</body>
+
+</html>

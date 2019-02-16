@@ -1,0 +1,33 @@
+<!Doctype html>
+<html lag-"pt-br">
+	<head>
+
+		<meta charset="utf-8">
+		<title>Jquery Eventos</title>
+	<script src="jquery-3.3.1.js">
+		
+	</script>
+	<script type="text/javascript">
+
+		//keydown - quando uma tecla é prssionada - soltando ou nao
+		//keypress - mesmo coisa que keydown mas nao capitura alt, ctrl, esc
+		//keyup = captura na hora que solta a tecla
+
+		$(document).ready(function(){
+			$('#campo1').keyup(function(){
+				alert('uma tecla foi pressionada')
+			});
+
+		});
+
+	</script>
+
+
+		
+	</head>
+
+	<body>
+		<input id="campo1" type="text"/>
+	</body>
+
+</html>

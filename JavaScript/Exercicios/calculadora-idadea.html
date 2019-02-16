@@ -1,0 +1,64 @@
+<!Doctype html>
+<html lag-"pt-br">
+	<head>
+
+		<meta charset="utf-8">
+		<title>Exercícios</title>
+
+
+
+	</head>
+
+	<body>
+
+
+		</form>
+
+			<form>
+			<p>Informe sua idade:</p>
+			<input type="text" name="1" id="idade"></input>
+
+			<p>Saber se é menor ou manor de idade:</p>
+			<input type="button" value="calcular" id="botao"></input>
+
+			<p>Resultado:</p>
+			<input type="text" name="1" id="retornando"></input>
+
+
+			</form>
+
+	<script type="text/javascript">
+
+
+
+			/* Crie uma função que recebe o ano de nascimento da pessoa informando se ela é maior de idade ou menor.*/
+
+
+			document.getElementById('botao').addEventListener("click", function(){
+				var idade = document.getElementById('idade').value;
+
+
+				idade = parseInt(idade);
+
+				var retornando = '';
+
+
+				if (idade => 18) {
+					retornando = 'Maior de idade';
+				} else {
+					retornando = 'Menor de idade';
+				}
+
+				document.getElementById('retornando').value = retornando;
+
+			});
+
+
+
+
+
+	</script>
+
+	</body>
+
+</html>

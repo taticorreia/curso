@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link href="estilo.css" rel="stylesheet">
+
+
+    <title>Agenda</title>
+
+    <script type="text/javascript">
+      
+
+function myFunction() {
+    var cell1 = document.getElementById('rg').value;
+    var cell2 = document.getElementById('nome').value;
+    var cell3 = document.getElementById('hora').value;
+
+    var cell4 = document.getElementById('codigo').value;
+
+
+     
+
+
+
+    
+
+
+    var table = document.getElementById('mytable');
+    var row = table.insertRow(0);
+
+   
+    var celula1 = row.insertCell(0);
+    var celula2 = row.insertCell(1);
+    var celula3 = row.insertCell(2);
+    var celula4 = row.insertCell(3);
+    var celula5 = row.insertCell(4);
+    var celula6 = row.insertCell(5);
+
+  
+    var celula6 = row.id;
+    row.id = cell4; 
+
+
+    celula1.innerHTML = cell1;
+    celula2.innerHTML = cell2;
+    celula3.innerHTML = cell3;
+    celula4.innerHTML = '<span><img src="imagens/editar.png"></span>';
+    celula5.innerHTML = '<span><img src="imagens/excluir.png" onclick="del()"></span>';
+
+
+
+ 
+ 
+
+    
+};
+
+
+
+function del(){
+  document.getElementById("myTable").deleteRow(0);
+
+};
+
+
+    </script>
+
+  </head>
+
+
+
+  <body>
+ 
+
+
+    <div id="nav">
+
+    </div>
+    <div class="agenda">
+      <p>Agendamentos</p>
+    </div>
+
+
+
+
+  <div id="menu">
+    <h1 class="agendamento"><strong>Agendamentos</strong></h1>
+   <form>
+  <div class="form-row">
+
+     <div class="form-group col-md-2">
+      <label for="inputEmail4">Código</label>
+      <input id="codigo" type="text" class="form-control" id="inputEmail4" placeholder="Código">
+    </div>
+    <div class="form-group col-md-4">
+      <label for="inputEmail4">Nome</label>
+      <input id="nome" type="text" class="form-control" id="inputEmail4" placeholder="Nome">
+    </div>
+
+    <div class="form-group col-md-4">
+      <label for="inputPassword4">R.G</label>
+      <input id="rg" type="text" class="form-control" id="inputPassword4" placeholder="R.G.">
+    </div>
+
+    <div class="form-group col-md-2">
+      <label for="inputPassword4">Hora</label>
+      <input id="hora"type="text" class="form-control" id="inputPassword4" placeholder="Horário">
+    </div>
+  </div>
+ 
+
+ 
+<img id="ir" onclick="myFunction()" style="width: 50px; height: 50px;"src="imagens/add.jpeg" />
+</form><br / >
+
+
+
+<div>
+<table id="tblData" class="table" style=" text-align: center;">
+
+  <thead class="thead-dark">
+    <tr>
+      <th scope="col">R.G</th>
+      <th scope="col">Nome</th>
+      <th scope="col">Horário</th>
+      <th scope="col">Editar</th>
+       <th scope="col">Excluir</th>
+
+      </tr>
+  </thead>
+ </table>
+
+<table class="table" id="mytable" style=" text-align: center;">
+    
+ 
+</table>
+
+
+</div>
+
+</div>
+
+<div id="rodape">
+</div>
+
+
+
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  </body>
+</html>

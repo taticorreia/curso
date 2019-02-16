@@ -1,0 +1,136 @@
+html, body, .capa{
+	width: 100%;
+	height: 100%;
+}
+
+body{
+	border:1px solid red;
+
+}
+
+
+
+.navbar-brand {
+	font-weight: 900;
+	text-transform: uppercase;
+	font-size: 16px;
+	color: white;
+}
+
+
+.navbar-inverse .navbar-brand {
+    color: #ddd;
+}
+
+
+
+.navbar-inverse {
+	background-color: transparent;
+	border: 0px;
+}
+
+
+#f{
+	background: url(img/hero.jpg) no-repeat center top;
+	background-attachment: relative;
+
+	width: 100%;
+	height: 900px;
+	background-position: center center;
+}
+
+.capa{
+	display: table;
+	width: 100%
+}
+
+.cell{
+	text-align: center;
+	display:table-cell;
+	vertical-align:middle;
+	color:white;
+	font-style:
+}
+
+.btn {
+	margin-top: 35px;
+	margin-right: 15px;
+	padding-left: 18px;
+	padding-right: 18px;
+	padding-top: 12px;
+	padding-bottom: 12px;
+	font-weight: 300;
+}
+
+
+.btn-branco{
+	background: transparent;
+	border: 1px solid white;
+	size: 40px;
+	color:white;
+}
+
+
+
+.btn-branco:hover{
+	background: white;
+	color:black;
+}
+
+.cell h1 {
+	font-weight: 100;
+	font-size: 70px;
+	font-family: Lato, sans-serif;
+	color:white;
+}
+
+.cell h2 {
+	color: #ddd;
+	font-size: 22px;
+	font-weight: 300;
+	font-family: Lato, sans-serif;
+	color:white;
+}
+
+#black{
+	background: #333;
+	color:black;
+	width: 100%;
+	height: 100%;
+}
+
+#borda{
+	box-sizing: border-box;
+	background: white;
+	color:black;
+	border-radius:10px;
+	width: 350px;
+	height: 200px;
+	-webkit-:border-radius:10px;
+	margin: 50px 10px 5px 20px; 
+	text-align: center;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+#borda h4 {
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 14px;
+	margin-bottom: 20px;
+}
+
+#borda p {
+	font-weight: 300px;
+	font-size: 12px;
+	color:black;
+	font-family: Lato, sans-serif;
+}
+
+
+#borda .fa {
+	color: #2cce78;
+	font-size: 30px;
+}

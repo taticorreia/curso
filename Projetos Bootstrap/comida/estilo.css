@@ -1,0 +1,139 @@
+.img-logo{
+  width: 30px;
+  height: 30px;
+	background: url('img/logo.png') no-repeat;
+	display: block;
+	color: transparent;
+	margin-top:-2px;
+
+
+
+}
+
+
+body {
+  background: #fff;
+  margin: 0;
+  color: #42413e;
+  padding-top: 50px;
+ }
+
+
+
+.navbar-default .navbar-nav> a{
+	padding: 20px;
+	text-decoration: none;
+	color:#e7e7e7;
+}
+
+
+.navbar-default .navbar-nav>li>a {
+  color: #ccc;
+}
+
+
+.navbar-default .navbar-nav>li > a:hover{
+  text-decoration: none;
+  padding: 20px;
+  text-decoration: none;
+  color:#555;
+  background:#e7e7e7;
+}
+
+
+
+.navbar-default .navbar-nav>.active> a:link{
+  text-decoration: none;
+  padding: 20px;
+  color:#f27242;
+
+}
+
+.btn .btn-lg .btn-orange{
+  background: orange;
+}
+
+
+
+html, body {
+  height: 100%;
+}
+
+.capa {
+	display: table;
+	background: #FAF7F7;
+	background: rgba(300, 300, 300, 0.6);
+	position: absolute;
+}
+
+.texto-capa {
+	text-align: center;
+	color: black;
+	display: table-cell;
+	vertical-align: middle;
+
+}
+
+#h {
+  background: url('img/header.jpg') no-repeat center top;
+  background: rgba();
+  padding-top: 150px;
+  text-align: center;
+  background-attachment: relative;
+  background-position: center center;
+  min-height: 650px;
+  width: 100%;
+  -webkit-background-size: 100%;
+  -moz-background-size: 100%;
+  -o-background-size: 100%;
+  background-size: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#branco{
+  background: white;
+  margin: 50px 10px 
+}
+
+#branco h2{
+  text-decoration: none;
+  font-size: 25px;
+  color: black;
+  padding-bottom: 25px;
+
+}
+
+#salada{
+  background: url('img/s01.jpg') no-repeat;
+  background-attachment: fixed;
+  width: 100%;
+  height: 650px;
+
+}
+
+#camarao{
+background: url('img/s02.jpg') no-repeat;
+background-attachment: fixed;
+width: 100%;
+height: 650px;
+
+}
+
+
+#box{
+  width: 500px;
+  height: 400px;
+  background: rgba(255,255,255,0.7);
+  box-sizing: border-box;
+  margin:auto;
+
+}
+
+
+.ca{
+  width: 200px;
+  height: 150px;
+}

@@ -1,0 +1,37 @@
+<!Doctype html>
+<html lag-"pt-br">
+	<head>
+
+		<meta charset="utf-8">
+		<title>Variáveis</title>
+	
+
+
+	</head>
+	<script type="text/javascript">
+		var segundos = 10;
+
+		function contagem_tempo(){
+
+		
+		if((segundos -1) >= 0){
+			segundos = segundos - 1;
+			document.getElementById('contador').innerHTML = segundos; /* ou contador.innertext = segundos;*/
+			setTimeout('contagem_tempo();', 1000); 
+		}
+
+	}
+	</script>
+
+	<body onload="contagem_tempo()">
+		<!--Criar um contador -->
+	<div id="contador" style="background:url('elogio.png') no-repeat; width: 200px; height: 200px; color:red; font-size: 60px;">
+	</div>
+
+		
+
+
+
+	</body>
+
+</html>

@@ -1,0 +1,51 @@
+<!Doctype html>
+<html lag-"pt-br">
+	<head>
+
+		<meta charset="utf-8">
+		<title>Exercícios</title>
+
+
+
+	</head>
+
+	<body>
+		<form>
+			<p>Valor:</p>
+			<input type="text" name="1" id="valor"></input> 
+
+			<p>Calcular valor com desconto de 5%:</p>
+			<input type="button" value="calcular" id="botao"></input>
+
+			<p>Valor com desconto:</p>
+			<input type="text" name="1" id="desconto"></input> 
+
+			
+		</form> 
+
+		
+
+	<script type="text/javascript">
+
+		/*Crie uma função que calcula 5% de desconto retornando o valor do desconto.*/
+
+		
+			document.getElementById('botao').addEventListener("click", function(){
+				var valor = document.getElementById('valor').value;
+				resultado = eval(valor) - (eval(valor) * 5 / 100);
+				document.getElementById('desconto').value = resultado;
+
+
+			});
+
+	
+
+
+
+		
+		
+	</script>
+
+	</body>
+
+</html>

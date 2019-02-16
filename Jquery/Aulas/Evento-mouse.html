@@ -1,0 +1,37 @@
+<!Doctype html>
+<html lag-"pt-br">
+	<head>
+
+		<meta charset="utf-8">
+		<title>Jquery Eventos</title>
+	<script src="jquery-3.3.1.js">
+		
+	</script>
+	<script type="text/javascript">
+
+		$(document).ready(function(){
+
+			//click - 1 clic
+			//dblclick - 2 cliks
+			//mousedown - só pressiono o mouse
+			//mouseover - coloca o mouse sobre o evento 
+			//mouseout -  coloca o mouse pra fora do elemento
+			
+			$('#div1').dblclick(function(){
+				alert('Elemento foi clicado');
+
+			});
+
+		});
+
+	</script>
+
+
+		
+	</head>
+
+	<body>
+		<div id="div1" style="height: 150px; width: 150px; background: gray;"
+	</body>
+
+</html>
